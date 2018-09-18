@@ -1,5 +1,6 @@
 # Flask PetStore Application:
 
+This project is simple example of creation of flask api supported by swagger docs and interaction with MySQL DB
 
 Instructions:
 
