@@ -1,0 +1,10 @@
+Pet Store API
+Call this api to get all pets data 
+---
+tags:
+  - Get all Pets data
+responses:
+  500: 
+    description: Some issue found, contact system admin
+  200:
+    description: Pets Data

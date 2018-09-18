@@ -1,0 +1,22 @@
+Pet Store API
+Call this api to update data for any pet based on id
+---
+tags:
+  - Update Pets data
+parameters:
+  - name: body
+    in: body
+    required: true
+    schema:
+      id: petupdate
+      required:
+        - id
+        - name
+        - species
+        - gender
+        - birthday
+responses:
+  500: 
+    description: Some issue found, contact system admin
+  200:
+    description: Pets Data
